@@ -28,7 +28,7 @@ class Usuario {
 
   // Función que retorna un array con los nombres de los libros.
   NombredeLibros() {
-    const NombreDeLibro = this.libros.map((book) => book.libro);
+    const NombreDeLibro = this.libros.map((libro) => libro.libro);
     return NombreDeLibro;
   }
 }
